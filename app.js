@@ -1,4 +1,4 @@
-// Task #1 (понял, сам сделал)
+// Task #1 
 function multiply(a, b, c) {
     return a * b * c;
 }
@@ -6,7 +6,7 @@ console.log(multiply(1, 2, 3));
 
 
 
-//  Task #2 (код спер, не понимаю)
+//  Task #2 
 function reverseString(str) {
     let newstr = "";
     for(let i = str.length; i--; ){
@@ -17,7 +17,7 @@ console.log(reverseString("test"));
 
 
 
-// Task #3 (код спер, не понимаю)
+// Task #3 
 let str = "hello";
 let str2 = "104 101 108 108 111";
 function getCodeStringFromText(str) {
@@ -39,7 +39,7 @@ console.log(getCodeStringFromText(str));
 
 
 
-// Task #4 (понял, сам сделал)
+// Task #4 
 // value = Math.floor(Math.random() * 10 + 1);
 
 const arr = ['You lose', 'You lose', 'You lose', 'You lose', 'You lose', 'You lose', 'You win', 'You lose', 'You lose', 'You lose', 'You lose'];
@@ -48,7 +48,6 @@ console.log(value, arr[value]);
 
 
 // Task #5
-let N = 10; 
-Array.apply(null, {length: N}).map(Number.call, Number)
 
-console.log(N);
+
+
